@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		24EB908D2AD9F7AF0044AF03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EB908C2AD9F7AF0044AF03 /* AppDelegate.swift */; };
 		24EB908F2AD9F7AF0044AF03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EB908E2AD9F7AF0044AF03 /* SceneDelegate.swift */; };
-		24EB90912AD9F7AF0044AF03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EB90902AD9F7AF0044AF03 /* ViewController.swift */; };
-		24EB90942AD9F7AF0044AF03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24EB90922AD9F7AF0044AF03 /* Main.storyboard */; };
+		24EB90912AD9F7AF0044AF03 /* QuotesGeneratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EB90902AD9F7AF0044AF03 /* QuotesGeneratorViewController.swift */; };
 		24EB90962AD9F7C40044AF03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24EB90952AD9F7C40044AF03 /* Assets.xcassets */; };
 		24EB90992AD9F7C40044AF03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24EB90972AD9F7C40044AF03 /* LaunchScreen.storyboard */; };
+		24EB90A32AD9FCFE0044AF03 /* AllQuetesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EB90A22AD9FCFE0044AF03 /* AllQuetesViewController.swift */; };
+		24EB90A52AD9FD1A0044AF03 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EB90A42AD9FD1A0044AF03 /* CategoriesViewController.swift */; };
+		24EB90A92ADBD4190044AF03 /* QuoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EB90A82ADBD4190044AF03 /* QuoteModel.swift */; };
+		24EB90AB2ADBD99E0044AF03 /* QuoteRealModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EB90AA2ADBD99E0044AF03 /* QuoteRealModel.swift */; };
+		24EB90AF2ADBDA610044AF03 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 24EB90AE2ADBDA610044AF03 /* Realm */; };
+		24EB90B12ADBDA610044AF03 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 24EB90B02ADBDA610044AF03 /* RealmSwift */; };
+		24EB90B42ADBFAF10044AF03 /* NetworkServise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EB90B32ADBFAF10044AF03 /* NetworkServise.swift */; };
+		24EB90B62ADC00710044AF03 /* RealmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EB90B52ADC00710044AF03 /* RealmService.swift */; };
+		24EB90B92ADEEE690044AF03 /* QuotesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EB90B82ADEEE690044AF03 /* QuotesTableViewCell.swift */; };
+		24EB90BD2ADF212E0044AF03 /* QuoteInCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EB90BC2ADF212E0044AF03 /* QuoteInCategoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		24EB90892AD9F7AF0044AF03 /* QuotesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuotesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24EB908C2AD9F7AF0044AF03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24EB908E2AD9F7AF0044AF03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		24EB90902AD9F7AF0044AF03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		24EB90932AD9F7AF0044AF03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24EB90902AD9F7AF0044AF03 /* QuotesGeneratorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesGeneratorViewController.swift; sourceTree = "<group>"; };
 		24EB90952AD9F7C40044AF03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24EB90982AD9F7C40044AF03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24EB909A2AD9F7C40044AF03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24EB90A22AD9FCFE0044AF03 /* AllQuetesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllQuetesViewController.swift; sourceTree = "<group>"; };
+		24EB90A42AD9FD1A0044AF03 /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		24EB90A82ADBD4190044AF03 /* QuoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteModel.swift; sourceTree = "<group>"; };
+		24EB90AA2ADBD99E0044AF03 /* QuoteRealModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteRealModel.swift; sourceTree = "<group>"; };
+		24EB90B32ADBFAF10044AF03 /* NetworkServise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServise.swift; sourceTree = "<group>"; };
+		24EB90B52ADC00710044AF03 /* RealmService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmService.swift; sourceTree = "<group>"; };
+		24EB90B82ADEEE690044AF03 /* QuotesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesTableViewCell.swift; sourceTree = "<group>"; };
+		24EB90BC2ADF212E0044AF03 /* QuoteInCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteInCategoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +47,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24EB90B12ADBDA610044AF03 /* RealmSwift in Frameworks */,
+				24EB90AF2ADBDA610044AF03 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +74,78 @@
 		24EB908B2AD9F7AF0044AF03 /* QuotesApp */ = {
 			isa = PBXGroup;
 			children = (
-				24EB908C2AD9F7AF0044AF03 /* AppDelegate.swift */,
-				24EB908E2AD9F7AF0044AF03 /* SceneDelegate.swift */,
-				24EB90902AD9F7AF0044AF03 /* ViewController.swift */,
-				24EB90922AD9F7AF0044AF03 /* Main.storyboard */,
+				24EB90A02AD9FB3E0044AF03 /* Resourses */,
+				24EB90A12AD9FB500044AF03 /* Controllers */,
+				24EB90A72ADBD3FA0044AF03 /* Modeles */,
+				24EB90A62ADBD3ED0044AF03 /* Services */,
 				24EB90952AD9F7C40044AF03 /* Assets.xcassets */,
 				24EB90972AD9F7C40044AF03 /* LaunchScreen.storyboard */,
 				24EB909A2AD9F7C40044AF03 /* Info.plist */,
 			);
 			path = QuotesApp;
+			sourceTree = "<group>";
+		};
+		24EB90A02AD9FB3E0044AF03 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				24EB908C2AD9F7AF0044AF03 /* AppDelegate.swift */,
+				24EB908E2AD9F7AF0044AF03 /* SceneDelegate.swift */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		24EB90A12AD9FB500044AF03 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				24EB90BA2ADEFD8F0044AF03 /* QuotesGeneratorViewController */,
+				24EB90B72ADEEE3E0044AF03 /* AllQuotesViewController */,
+				24EB90BB2ADEFDB10044AF03 /* CategoriesViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		24EB90A62ADBD3ED0044AF03 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				24EB90B32ADBFAF10044AF03 /* NetworkServise.swift */,
+				24EB90B52ADC00710044AF03 /* RealmService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		24EB90A72ADBD3FA0044AF03 /* Modeles */ = {
+			isa = PBXGroup;
+			children = (
+				24EB90A82ADBD4190044AF03 /* QuoteModel.swift */,
+				24EB90AA2ADBD99E0044AF03 /* QuoteRealModel.swift */,
+			);
+			path = Modeles;
+			sourceTree = "<group>";
+		};
+		24EB90B72ADEEE3E0044AF03 /* AllQuotesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				24EB90A22AD9FCFE0044AF03 /* AllQuetesViewController.swift */,
+				24EB90B82ADEEE690044AF03 /* QuotesTableViewCell.swift */,
+			);
+			path = AllQuotesViewController;
+			sourceTree = "<group>";
+		};
+		24EB90BA2ADEFD8F0044AF03 /* QuotesGeneratorViewController */ = {
+			isa = PBXGroup;
+			children = (
+				24EB90902AD9F7AF0044AF03 /* QuotesGeneratorViewController.swift */,
+			);
+			path = QuotesGeneratorViewController;
+			sourceTree = "<group>";
+		};
+		24EB90BB2ADEFDB10044AF03 /* CategoriesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				24EB90A42AD9FD1A0044AF03 /* CategoriesViewController.swift */,
+				24EB90BC2ADF212E0044AF03 /* QuoteInCategoryViewController.swift */,
+			);
+			path = CategoriesViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +164,10 @@
 			dependencies = (
 			);
 			name = QuotesApp;
+			packageProductDependencies = (
+				24EB90AE2ADBDA610044AF03 /* Realm */,
+				24EB90B02ADBDA610044AF03 /* RealmSwift */,
+			);
 			productName = QuotesApp;
 			productReference = 24EB90892AD9F7AF0044AF03 /* QuotesApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +196,9 @@
 				Base,
 			);
 			mainGroup = 24EB90802AD9F7AE0044AF03;
+			packageReferences = (
+				24EB90AD2ADBDA610044AF03 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = 24EB908A2AD9F7AF0044AF03 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +215,6 @@
 			files = (
 				24EB90992AD9F7C40044AF03 /* LaunchScreen.storyboard in Resources */,
 				24EB90962AD9F7C40044AF03 /* Assets.xcassets in Resources */,
-				24EB90942AD9F7AF0044AF03 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +225,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24EB90912AD9F7AF0044AF03 /* ViewController.swift in Sources */,
+				24EB90BD2ADF212E0044AF03 /* QuoteInCategoryViewController.swift in Sources */,
+				24EB90A92ADBD4190044AF03 /* QuoteModel.swift in Sources */,
+				24EB90912AD9F7AF0044AF03 /* QuotesGeneratorViewController.swift in Sources */,
+				24EB90B42ADBFAF10044AF03 /* NetworkServise.swift in Sources */,
 				24EB908D2AD9F7AF0044AF03 /* AppDelegate.swift in Sources */,
+				24EB90B62ADC00710044AF03 /* RealmService.swift in Sources */,
 				24EB908F2AD9F7AF0044AF03 /* SceneDelegate.swift in Sources */,
+				24EB90B92ADEEE690044AF03 /* QuotesTableViewCell.swift in Sources */,
+				24EB90A32AD9FCFE0044AF03 /* AllQuetesViewController.swift in Sources */,
+				24EB90A52AD9FD1A0044AF03 /* CategoriesViewController.swift in Sources */,
+				24EB90AB2ADBD99E0044AF03 /* QuoteRealModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		24EB90922AD9F7AF0044AF03 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				24EB90932AD9F7AF0044AF03 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		24EB90972AD9F7C40044AF03 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +383,6 @@
 				INFOPLIST_FILE = QuotesApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,9 +392,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Team.QuotesApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -323,7 +412,6 @@
 				INFOPLIST_FILE = QuotesApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -333,9 +421,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Team.QuotesApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -361,6 +452,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		24EB90AD2ADBDA610044AF03 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.43.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		24EB90AE2ADBDA610044AF03 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 24EB90AD2ADBDA610044AF03 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		24EB90B02ADBDA610044AF03 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 24EB90AD2ADBDA610044AF03 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 24EB90812AD9F7AE0044AF03 /* Project object */;
 }
